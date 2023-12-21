@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(Assets/Netflix_Background.jpg);
+
+}
+.moviecard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    height: 30rem;
+    background-color: white;
+    padding: 1rem;
+    justify-content: center;
+    overflow: hidden;
+}
+h3{
+    font-size: 3rem;
+    margin: 0;
+}
+h5{
+    margin: 0;
+    padding: 0.7rem;
+    font-size: 1.7rem;
+}
+#container{ 
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+#container img{
+    width: 19rem;
+    height: 23rem;
+    transition: all 1s ease-in-out;
+}
+#container img:hover{
+    transform: scale(1.02);
+}
+
+#Search{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    gap: 2rem;
+}
+#ipbox{
+    background-color: lack;
+    height: 3rem;
+    width: 50%;
+    border-radius: 20px;
+    padding-left: 1rem;
+    font-size: x-large;
+    box-shadow: 4px 4px 4px;
+    transition: all 1.2s ease-in-out;
+    z-index: 3;
+}
+#ipbox:focus{
+    transform: scale(1.007);
+}
+#btn{
+    width: 10%;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    background-color: rgb(229,9,20);
+}
+#btn:hover{
+    background-color: rgb(192, 10, 19);
+}
+
