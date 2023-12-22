@@ -4,6 +4,7 @@ const button = document.getElementById('btn')
 
 button.addEventListener('click', ()=>{
     const val = SearchBox.value
+    container.innerHtml = "";
     SearchMovies(val)
 })
 
